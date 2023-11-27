@@ -1,0 +1,22 @@
+#chicken-breadsticks{
+    background-color:lightgray;
+    text-align: center;
+ 
+}
+
+.unordered-list-breadsticks,.ordered-list-breadsticks,.ul-breadsticks-last{
+    list-style-position: inside;
+
+}
+
+.ul-breadsticks-last{
+    list-style-type: none;
+}
+
+#breadsticks-buttons{
+    color:black;
+}
+
+.breadsticks-clickhere-button{
+    background-color: #ff0000;
+}
