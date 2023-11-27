@@ -1,10 +1,21 @@
-#chicken-breadsticks{
+#chicken-breadsticks,
+#chicken-bombs,
+#chicken-meatballs,
+#parmesan-chicken{
     background-color:lightgray;
     text-align: center;
  
 }
 
-.unordered-list-breadsticks,.ordered-list-breadsticks,.ul-breadsticks-last{
+.unordered-list-breadsticks,
+.ordered-list-breadsticks,
+.ul-breadsticks-last,
+.bombs-first-ul,
+.bombs-first-ol,
+.meatballs-first-ul,
+.meatballs-first-ol,
+.parmesan-first-ul,
+.parmesan-first-ol{
     list-style-position: inside;
 
 }
@@ -13,10 +24,13 @@
     list-style-type: none;
 }
 
-#breadsticks-buttons{
+#breadsticks-buttons,.bombs-button-text,.meatballs-button-text,.parmesan-button-text{
     color:black;
+    font-size: 20px;
+    
 }
 
-.breadsticks-clickhere-button{
+.breadsticks-clickhere-button,.bombs-clickhere-button,.meatballs-clickhere-button,.parmesan-clickhere-button{
     background-color: #ff0000;
+    
 }
