@@ -1,4 +1,36 @@
-#chicken-breadsticks,
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  border: 10px dotted black;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  justify-content: left;
+  width: 50vh;
+  height: auto;
+}
+
+#chicken-breadsticks {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;
+}
+
+/* #chicken-breadsticks,
 #chicken-bombs,
 #chicken-meatballs,
 #parmesan-chicken{
@@ -38,4 +70,4 @@
 img{
     max-width: 100%;
     height: auto;
-}
+} */
