@@ -1,23 +1,33 @@
-body{
-background-color: lightgrey;
-text-align: center;
-font-family: Georgia, "Times New Roman", sans-serif;
-
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h2{
-    background-color:blanchedalmond;
+body {
+  background-color: lightgrey;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", sans-serif;
 }
 
-button{
-    background-color:red;
+h2 {
+  background-color: blanchedalmond;
+  color: blueviolet;
 }
 
-a{
-    color:#000000;
+button {
+  background-color: red;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+a {
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: blueviolet;
 }
