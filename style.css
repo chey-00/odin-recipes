@@ -31,3 +31,21 @@ img {
 h1 {
   color: blueviolet;
 }
+
+.pagequestions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.dinner {
+  flex-grow: 1;
+  flex-basis: 160px;
+}
+
+.craving {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
