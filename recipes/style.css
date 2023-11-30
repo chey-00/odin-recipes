@@ -12,7 +12,6 @@ body {
   padding: 10px;
 }
 
-/* this is a temporary border for the page header so I can see where the container is */
 #chicken-breadsticks {
   width: auto;
   height: auto;
@@ -29,18 +28,16 @@ img {
   border-radius: 10px;
 }
 
+/* CONTAINER ONE */
 .container-one {
   background-color: azure;
   border-radius: 10px;
   max-width: 500px;
   max-height: 200px;
   margin: 0 auto;
-
-  /* display: flex;
-  flex-direction: column; */
 }
-/*! removed flex property above and used position property to put description on top of img*/
 
+/*! Used position property to put description on top of image*/
 .image {
   z-index: 1;
   position: relative;
@@ -59,13 +56,14 @@ img {
   transform: rotate(-20deg);
 }
 
+/* CONTAINER TWO */
 .container-two {
   outline: 5px solid hotpink;
   gap: 1em;
   display: flex;
   align-items: start;
   flex-wrap: wrap;
-  /* I adjusted the 3 properties below to fit according to my web design */
+  /* Adjusted the 3 properties below to fit according to web design */
   margin-bottom: 10px;
   margin-top: 30px;
   padding-left: 5px;
@@ -85,6 +83,7 @@ img {
   text-align: center;
 }
 
+/* FOOTER CONTAINER */
 .footer {
   border: 5px double beige;
   text-align: center;
@@ -99,7 +98,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-/* THESE CODES ARE AFFECTING ALL RECIPE PAGES BUTTONS AND RETURN TO PAGE MESSAGES*/
+/*! THESE CODES ARE AFFECTING ALL RECIPE PAGES "BUTTONS" AND "RETURN TO PAGE" MESSAGES*/
 #breadsticks-buttons,
 .bombs-button-text,
 .meatballs-button-text,
@@ -133,7 +132,7 @@ img {
   display: flex;
   align-items: start;
   flex-wrap: wrap;
-  /* I adjusted the 3 properties below to fit according to my web design */
+  /* Adjusted the 3 properties below to fit according to web design */
   margin-bottom: 10px;
   margin-top: 30px;
   padding-left: 5px;
@@ -194,46 +193,14 @@ img {
 }
 /*! END CSS FOR MEATBALLS PAGE */
 
-/*! this is the code I had before which is temporarily deactivated while I try other stuff out */
+/* CSS START FOR PARMESAN WINGS */
 
-/* #chicken-breadsticks,
-#chicken-bombs,
-#chicken-meatballs,
-#parmesan-chicken{
-    background-color:lightgray;
-    text-align: center;
- 
+#parmesan-chicken {
+  background-image: linear-gradient(lightgray, hotpink);
 }
 
-.unordered-list-breadsticks,
-.ordered-list-breadsticks,
-.ul-breadsticks-last,
-.bombs-first-ul,
-.bombs-first-ol,
-.meatballs-first-ul,
-.meatballs-first-ol,
-.parmesan-first-ul,
-.parmesan-first-ol{
-    list-style-position: inside;
+/* CONTAINER ONE */
 
+.container-one-wings {
+  text-align: center;
 }
-
-.ul-breadsticks-last{
-    list-style-type: none;
-}
-
-#breadsticks-buttons,.bombs-button-text,.meatballs-button-text,.parmesan-button-text{
-    color:black;
-    font-size: 20px;
-    
-}
-
-.breadsticks-clickhere-button,.bombs-clickhere-button,.meatballs-clickhere-button,.parmesan-clickhere-button{
-    background-color: #ff0000;
-    
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-} */
