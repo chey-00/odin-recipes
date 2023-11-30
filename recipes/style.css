@@ -39,7 +39,7 @@ img {
   /* display: flex;
   flex-direction: column; */
 }
-/* removed flex property above and used position property to put description on top of img*/
+/*! removed flex property above and used position property to put description on top of img*/
 
 .image {
   z-index: 1;
@@ -99,7 +99,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
-/* THESE CODES ARE AFFECTING ALL RECIPE PAGES */
+/* THESE CODES ARE AFFECTING ALL RECIPE PAGES BUTTONS AND RETURN TO PAGE MESSAGES*/
 #breadsticks-buttons,
 .bombs-button-text,
 .meatballs-button-text,
@@ -119,9 +119,9 @@ img {
   background-color: #ff0000;
 }
 
-/* END CSS FOR BREADSTICKS */
+/*! END CSS FOR BREADSTICKS */
 
-/* CSS START FOR BOMBS */
+/* CSS START FOR BOMBS PAGE */
 
 /* Header */
 .bombs-header {
@@ -160,8 +160,41 @@ img {
   border-radius: 5px;
   list-style-position: inside;
 }
+/*! END CSS FOR BOMBS PAGE */
 
-/* is the code I had before which is temporarily deactivated while I try other stuff out */
+/*CSS START FOR MEATBALLS PAGE*/
+
+/*CONTAINER ONE*/
+.container-one-meatballs,
+.nutrition-meatballs {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h1 {
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  transform: rotate(-15deg);
+  margin: auto auto;
+  max-width: 5em;
+  background-color: white;
+}
+.header-description-meatballs {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+/*CONTAINER TWO*/
+
+.container-two-meatballs,
+.footer-meatballs {
+  background-color: white;
+  border-radius: 5px;
+}
+/*! END CSS FOR MEATBALLS PAGE */
+
+/*! this is the code I had before which is temporarily deactivated while I try other stuff out */
 
 /* #chicken-breadsticks,
 #chicken-bombs,
